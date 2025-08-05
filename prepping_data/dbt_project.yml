@@ -1,0 +1,19 @@
+name: prepping_data
+version: 1.0.0
+config-version: 2
+profile: prepping_data
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  prepping_data:
+    +materialized: view

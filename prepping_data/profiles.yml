@@ -1,0 +1,11 @@
+prepping_data:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: CORE
+      warehouse: CORE_WH
+      database: TIL_DATASCHOOL
+      schema: DS47
+      account: 'TILUK-CORE'
+      user: 'PAULHOUGHTON'
